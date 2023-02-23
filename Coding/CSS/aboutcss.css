@@ -1,0 +1,29 @@
+@charset "utf-8";
+
+.recentadds{
+	width: 22vw;
+	height: auto;
+	margin: auto;
+	display: flex;
+	justify-content: center;
+		
+}
+main{
+	display: flex;
+	justify-content: space-around;
+	top: 12.5em;
+	position: relative;
+}
+.aboutinfo{
+	width: 60vw;
+	height: 40em;
+	padding: 2em;
+	display: flex;
+	align-items: center;
+	
+}
+.recentimg{
+	width: 10em;
+	height: 15em;
+	margin: auto;
+}

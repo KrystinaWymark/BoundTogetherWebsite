@@ -1,0 +1,30 @@
+@charset "utf-8";
+
+body{
+	background-color: #FFFFFF;
+	overflow-x: hidden;
+}
+
+.heroimage{
+	background-image: url("../Images/heroimage3.png");
+	height: 40em;
+	width: 100vw;
+	top: 15em;
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: flex;
+	align-items: center;
+}
+main{
+	display: flex;
+	justify-content: space-around;
+	
+}
+article{
+	width: 40vw;
+	height: 20em;
+	padding: 2em;
+}
+.instafeed{
+	overflow-y: scroll
+}

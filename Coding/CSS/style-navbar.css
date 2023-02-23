@@ -1,0 +1,95 @@
+@charset "utf-8";
+
+@font-face{
+	font-family: Beyond Wonderland;
+	src: url("../assets/beyond-wonderland.regular.ttf");
+}
+@font-face{
+	font-family: Angleterre Book;
+	src: url("../assets/angleterre-book.regular.ttf");
+}
+header{
+	background-color: #FFFFFF;
+	font-family: angleterre book
+}
+
+.navli, .dropdown{
+	display: inline;
+}
+
+nav{
+	width: 100vw;
+	background-color: #ffffff;
+	box-shadow: 0px 5px 10px 0 rgba(0, 0, 0, 0.2);
+	position: fixed;
+	z-index: 100;
+}
+.navitem{
+	margin: 1em;
+	display: flex;
+	align-items: center
+}
+
+.nava{
+	text-decoration: none;
+	color: #000000;
+	margin-left: 1.5em;
+	font-weight: 100;	
+	font-size: 1em;
+}
+.dropdownnava{
+	text-decoration: none;
+	color: #000000;
+	font-weight: 100;	
+	font-size: 1em;
+}
+
+a:hover{
+	color:#D77E5E;
+}
+
+
+.navcont{
+	width: 90%;
+	height: 5em;
+	display: flex;
+	justify-content: space-between;
+	padding: 1em;
+	margin: 0 auto;
+	
+}
+
+.headerbanner{
+	position: fixed;
+	top: 7em;
+	height: 3em;
+	width: 100vw;
+	background-color: #5B6E74;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: #ffffff;
+	z-index: 1
+}
+.banner{
+	text-decoration: none;
+	color: #ffffff;
+		
+}
+footer{
+	height: 3em;
+	width: 100vw;
+	background-color: #5B6E74;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: #ffffff;	
+	position: absolute;
+	bottom: 0;
+}
+.social{
+	text-decoration: none;
+	font-family: angleterre book;
+	font-size: 16px;
+	color: #ffffff;
+}

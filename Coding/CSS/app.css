@@ -1,0 +1,19 @@
+@charset "utf-8";
+
+main{
+	display: flex;
+	justify-content:space-around;
+	align-items: center;
+	top: 12em;
+	position: relative;
+}
+
+.appinfo{
+	width: 45vw;
+	height: 45em;
+	position: relative;
+	top: 5em;
+	display: flex;
+	align-items: center;
+}
+

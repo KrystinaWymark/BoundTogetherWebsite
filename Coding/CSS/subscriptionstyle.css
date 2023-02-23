@@ -1,0 +1,23 @@
+@charset "utf-8";
+
+main{
+	display: flex;
+	justify-content: space-around;
+}
+.subscriptionbox{
+	width: 30vw;
+	height: 40em;
+	position: relative;
+	top: 12.5em;
+	padding: 2em;
+	font-family: angleterre book;
+	font-size: 16px;
+}
+
+.subscriptioninfo{
+	width: 50vw;
+	height: 40em;
+	position: relative;
+	top: 12.5em;
+	padding: 2em;
+}

@@ -1,0 +1,48 @@
+@charset "utf-8";
+
+@font-face{
+	font-family: "Beyond Wonderland";
+	src: url("../assets/beyond-wonderland.regular.ttf");
+}
+@font-face{
+	font-family: "Angleterre Book";
+	src: url("../assets/angleterre-book.regular.ttf");
+}
+h1{
+	font-family: "Beyond Wonderland";
+	font-size: 50px;
+	color: #000000;
+}
+h2{
+	font-family: "Beyond Wonderland";
+	font-size: 30px;
+	color: #000000;
+}
+h3{
+	font-family: "Angleterre Book";
+	font-size: 20px	
+}
+h4{}
+h5{}
+h6{}
+p{
+	font-family: "Angleterre Book";
+	font-size: 16px
+}
+li{
+	font-family: "Angleterre Book";
+	font-size: 16px;
+}
+ul{
+	list-style-type: circle;
+	list-style-position: inside;
+}
+label{
+	font-family: "Angleterre Book";
+	font-size: 20px	
+}
+
+input{
+	font-family: "Angleterre Book";
+	font-size: 16px	;	
+}
